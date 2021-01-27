@@ -24,7 +24,7 @@ int main()
 	Container merged;
 
 	// Read image from disk
-	Image input = Image("test4.gif");
+	Image input = Image("img.gif");
 
 	// Create black image with same dimensions as input
 	Image output = Image(input.getRows(), input.getCols());

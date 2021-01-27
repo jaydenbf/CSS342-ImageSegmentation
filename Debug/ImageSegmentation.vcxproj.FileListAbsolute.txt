@@ -1,0 +1,2 @@
+C:\Users\jbful\Documents\GitHub\CSS342-ImageSegmentation\Debug\ImageSegmentation.exe
+C:\Users\jbful\Documents\GitHub\CSS342-ImageSegmentation\Debug\ImageSegmentation.pdb

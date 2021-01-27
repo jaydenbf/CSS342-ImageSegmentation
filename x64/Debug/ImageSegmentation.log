@@ -1,0 +1,10 @@
+﻿  Container.cpp
+  Driver.cpp
+  Image.cpp
+  Generating Code...
+Image.obj : error LNK2019: unresolved external symbol "struct image __cdecl ReadGIF(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?ReadGIF@@YA?AUimage@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "public: __cdecl Image::Image(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0Image@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Image.obj : error LNK2019: unresolved external symbol "void __cdecl WriteGIF(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct image)" (?WriteGIF@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@Uimage@@@Z) referenced in function "public: void __cdecl Image::writeToDisk(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)const " (?writeToDisk@Image@@QEBAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Image.obj : error LNK2019: unresolved external symbol "void __cdecl DeallocateImage(struct image &)" (?DeallocateImage@@YAXAEAUimage@@@Z) referenced in function "public: __cdecl Image::~Image(void)" (??1Image@@QEAA@XZ)
+Image.obj : error LNK2019: unresolved external symbol "struct image __cdecl CopyImage(struct image)" (?CopyImage@@YA?AUimage@@U1@@Z) referenced in function "public: __cdecl Image::Image(class Image const &)" (??0Image@@QEAA@AEBV0@@Z)
+Image.obj : error LNK2019: unresolved external symbol "struct image __cdecl CreateImage(int,int)" (?CreateImage@@YA?AUimage@@HH@Z) referenced in function "public: __cdecl Image::Image(int,int)" (??0Image@@QEAA@HH@Z)
+C:\Users\jbful\Documents\GitHub\CSS342-ImageSegmentation\x64\Debug\ImageSegmentation.exe : fatal error LNK1120: 5 unresolved externals
